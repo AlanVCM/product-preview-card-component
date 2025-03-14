@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --title: 'Fraunces', sans-serif;
+    --text: 'Montserrat', sans-serif;
+    --padding-size: 80px 0;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background: var(--Cream);
+    font-family: var(--text);
+    padding: var(--padding-size);
+    
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card__container{
+    background: var(--White);
+    border-radius: 10px;
+}
+
+.card__picture{
+    width: 100%;
+}
+.card__img1{
+    display: none;
+
+}
+.card__img2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__text{
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.title{
+    font-family: var(--title);
+    font-weight: 700;
+    color: var(--Very-dark-blue);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+    margin-bottom: 20px;
+}
+
+.card__price{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.price{
+    font-size: 1.7rem;
+    font-family: var(--title);
+    font-weight: 700;
+    color: var(--Dark-cyan);
+    margin-right: 15px;
+}
+
+.discount{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.cta{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 6px;
+    background: var(--Dark-cyan);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}  
